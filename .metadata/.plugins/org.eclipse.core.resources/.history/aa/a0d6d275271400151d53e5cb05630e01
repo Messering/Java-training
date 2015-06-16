@@ -1,0 +1,23 @@
+package training_timus;
+
+import java.util.Scanner;
+public class Reverse_Root {
+	
+public static void func(){
+Scanner sc = new Scanner(System.in);
+int j = sc.nextInt();
+double []mass = new double[j];
+
+for(int i =0;i<j;i++){
+mass[i]=Math.sqrt(sc.nextFloat());	
+}
+sc.close();
+for(int i =0;i<j;i++){
+System.out.printf("%f%n",mass[i]+"\n");	
+}
+}
+
+public static void main(String[] args) {
+	func();
+}
+}

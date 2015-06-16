@@ -1,0 +1,17 @@
+package training_timus;
+
+import java.util.*;
+public class A_plus_B {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.print("¬вед≥ть число a");
+		int a = sc.nextInt();
+		System.out.print("¬вед≥ть число b");
+		int b = sc.nextInt();
+		System.out.print(a+b);
+		
+	}
+
+}
