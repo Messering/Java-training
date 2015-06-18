@@ -9,10 +9,10 @@ public class Reverse_Root_v2 {
 	if(mass>=0 && mass<=Math.pow(10,18)){
 	System.out.printf(String.format("%1$.4f\n",Math.sqrt(Double.parseDouble(mass+"\n"))));	
 	}
-		}
+	sc.close();
+	}
 	}
 	public static void main(String[] args) {
 		func();
-		
 	}
 	}
